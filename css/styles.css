@@ -178,3 +178,22 @@ a:hover {
   color: #eaf6f6;
   font-size: 0.75rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .top-img {
+    position: absolute;
+    top: 3.125rem;
+    right: 6.25rem;
+    width: 6.25rem;
+    height: 3.125rem;
+  }
+
+  .bottom-img {
+    position: absolute;
+    bottom: 18.75rem;
+    left: 6.25rem;
+    width: 6.25rem;
+    height: 3.125rem;
+  }
+
+}
